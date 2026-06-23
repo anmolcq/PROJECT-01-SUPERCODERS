@@ -12,7 +12,33 @@ The objective of this project is to understand how memory actually works in the 
 ### DynamicArray<T>
 
 Template Declaration
-s
+
+```template<typename T>```
+```class DynamicArray```
+```{...};```
+
+I am using the template because it helps me in generic implementation and helps in porviding reusablity and makes file compact and strutured.Without the template we need to create different files for each datatype and therefore increases the complexity during deugging and minor changes.
+
+**Public Methods** 
+| Method | Parameters | Return Type | Purpose |
+|----------|------------|-------------|---------|
+| DynamicArray() | ```none``` | ```none``` | Initialize empty array |
+| ~DynamicArray() | ```none``` | ```none``` | Release allocated memory |
+| DynamicArray() | ```const DynamicArray<T>& other``` | ```none``` | Deep copy constructor |
+| operator=() | ```const DynamicArray<T>& other``` | ```DynamicArray<T>&``` | Deep copy assignment |
+| append() | ```const T& value``` | ```void``` | Add element at end |
+| insert() | ```size_t index, const T& value``` | ```bool``` | Insert element at index |
+| remove() | ```size_t index``` | ```bool``` | Remove element at index |
+| pop_back() | ```none``` | ```bool``` | Remove last element |
+| operator[] | ```size_t index``` | ```T&``` | Access element |
+
+
+**Private helper Methods**
+| Method | Parameters | Return Type | Purpose |
+|----------|------------|-------------|---------|
+| grow() | ```none``` | ```void``` | Double capacity when full |
+| shrink() | ```none``` | ```void``` | Halve capacity when size falls below 25% utilization |
+
 Justification: I selected operator[] instead of get() because it provides array-like syntax and constant-time access.
 
 ### LinkedList<T>
