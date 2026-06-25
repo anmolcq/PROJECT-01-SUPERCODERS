@@ -18,6 +18,7 @@ private:
 public:
 
     DynamicArray();                                          // Default constructor
+    DynamicArray(size_t count);                     // Constructor with initial capacity
     ~DynamicArray();                                         // Destructor
     DynamicArray(const DynamicArray<T>& other);              // Copy constructor
     DynamicArray<T>& operator=(const DynamicArray<T>& other); // Copy assignment operator
@@ -28,10 +29,12 @@ public:
     bool   insert(size_t index, const T& value); // Insert at index
     bool   remove(size_t index);             // Remove at index
     bool   pop_back();                       // Remove last element
+    const T& operator[](size_t index) const;
 
     size_t getSize()     const;
     size_t getCapacity() const;
     bool   empty()       const;
+    
 };
 template<typename T>
 static void destroyElements(T* data, size_t count)
@@ -53,6 +56,24 @@ DynamicArray<T>::DynamicArray()
         throw std::bad_alloc();
 }
 
+template<typename T>
+DynamicArray<T>::DynamicArray(size_t count)
+    : size(count),
+      capacity(count),
+      data(nullptr)
+{
+    data = static_cast<T*>(malloc(sizeof(T) * capacity));
+
+    if(data == nullptr)
+    {
+        throw std::bad_alloc();
+    }
+
+    for(size_t i = 0; i < size; ++i)
+    {
+        new(data + i) T();
+    }
+}
 
 template<typename T>
 DynamicArray<T>::~DynamicArray()
@@ -304,3 +325,13 @@ size_t DynamicArray<T>::getCapacity() const { return capacity; }
 
 template<typename T>
 bool DynamicArray<T>::empty() const { return size == 0; }
+template<typename T>
+const T& DynamicArray<T>::operator[](size_t index) const
+{
+    if(index >= size)
+    {
+        throw std::out_of_range("Index out of bounds");
+    }
+
+    return data[index];
+}

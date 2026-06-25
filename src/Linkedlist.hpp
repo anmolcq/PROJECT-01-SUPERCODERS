@@ -35,6 +35,9 @@ public:
     
     template<typename Predicate>  // find the first node that satisfies the given predicate 
     Node<T>* findIf(Predicate pred) const;  // Generaly used for the hashmap functions.
+    template<typename Predicate>
+    bool removeIf(Predicate pred);
+    
 };
 template<typename T>
 LinkedList<T>::LinkedList()
@@ -259,4 +262,48 @@ Node<T>* LinkedList<T>::findIf(Predicate pred) const
     }
 
     return nullptr;
+}
+
+template<typename T>
+template<typename Predicate>
+bool LinkedList<T>::removeIf(Predicate pred)
+{
+    if(head == nullptr)
+    {
+        return false;
+    }
+    // Head node match karta hai
+    if(pred(head->data))
+    {
+        Node<T>* temp = head;
+        head = head->next;
+
+        if(head == nullptr)
+        {
+            tail = nullptr;
+        }
+        delete temp;
+        --size;
+
+        return true;
+    }
+    Node<T>* previous = head;
+    Node<T>* current  = head->next;
+    while(current != nullptr)
+    {
+        if(pred(current->data))
+        {
+            previous->next = current->next;
+            if(current == tail)
+            {
+                tail = previous;
+            }
+            delete current;
+            --size;
+            return true;
+        }
+        previous = current;
+        current  = current->next;
+    }
+    return false;
 }
