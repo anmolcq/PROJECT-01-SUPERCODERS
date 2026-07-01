@@ -1,0 +1,12 @@
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_append.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_append.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_assignment.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_assignment.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_capacity.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_capacity.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_constructor.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_constructor.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_coopy_constructor.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_coopy_constructor.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_empty.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_empty.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_get.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_get.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_insert.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_insert.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_operator_access.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_operator_access.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_pop_back.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_pop_back.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_remove.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_remove.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_size.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\DynamicArrayTests.dir\Release\test_size.obj

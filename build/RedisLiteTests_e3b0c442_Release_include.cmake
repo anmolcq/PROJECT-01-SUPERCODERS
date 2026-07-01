@@ -1,0 +1,5 @@
+if(EXISTS "D:/GITN/PROJECT-01-SUPERCODERS/build/RedisLiteTests_e3b0c442_Release_tests.cmake")
+  include("D:/GITN/PROJECT-01-SUPERCODERS/build/RedisLiteTests_e3b0c442_Release_tests.cmake")
+else()
+  add_test(RedisLiteTests_NOT_BUILT RedisLiteTests_NOT_BUILT)
+endif()

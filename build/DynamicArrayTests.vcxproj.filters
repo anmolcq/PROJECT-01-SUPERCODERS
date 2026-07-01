@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_append.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_assignment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_capacity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_constructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_coopy_constructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_empty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_get.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_insert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_operator_access.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_pop_back.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_remove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\DynamicArray\test_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GITN\PROJECT-01-SUPERCODERS\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84A90777-7776-3D44-9F46-5BD128732669}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

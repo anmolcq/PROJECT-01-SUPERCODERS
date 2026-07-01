@@ -1,0 +1,5 @@
+if(EXISTS "D:/GITN/PROJECT-01-SUPERCODERS/build/LinkedListTests_e3b0c442_RelWithDebInfo_tests.cmake")
+  include("D:/GITN/PROJECT-01-SUPERCODERS/build/LinkedListTests_e3b0c442_RelWithDebInfo_tests.cmake")
+else()
+  add_test(LinkedListTests_NOT_BUILT LinkedListTests_NOT_BUILT)
+endif()

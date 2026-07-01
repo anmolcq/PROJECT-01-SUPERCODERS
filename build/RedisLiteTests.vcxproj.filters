@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_clear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_cli.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_commandparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_delete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_execute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_exisits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_get.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_size.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\src\CLI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\src\CommandParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GITN\PROJECT-01-SUPERCODERS\src\RedisLite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GITN\PROJECT-01-SUPERCODERS\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84A90777-7776-3D44-9F46-5BD128732669}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

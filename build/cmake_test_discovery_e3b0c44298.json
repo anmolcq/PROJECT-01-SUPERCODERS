@@ -1,0 +1,521 @@
+{
+  "tests": 85,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "RedisLiteClearTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "ClearNonEmptyDatabase",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_clear.cpp",
+          "line": 17
+        },
+        {
+          "name": "ClearRemovesAllKeys",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_clear.cpp",
+          "line": 25
+        },
+        {
+          "name": "ClearThenInsertNewKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_clear.cpp",
+          "line": 34
+        },
+        {
+          "name": "ClearCalledMultipleTimes",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_clear.cpp",
+          "line": 49
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteClearStandalone",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ClearEmptyDatabase",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_clear.cpp",
+          "line": 59
+        },
+        {
+          "name": "ClearLargeDatabase",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_clear.cpp",
+          "line": 69
+        },
+        {
+          "name": "ClearAfterSingleInsertion",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_clear.cpp",
+          "line": 91
+        }
+      ]
+    },
+    {
+      "name": "CLIRunTest",
+      "tests": 11,
+      "testsuite": [
+        {
+          "name": "RunExitCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 29
+        },
+        {
+          "name": "RunSetAndGetCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 47
+        },
+        {
+          "name": "RunDeleteCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 69
+        },
+        {
+          "name": "RunExistsCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 91
+        },
+        {
+          "name": "RunSizeCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 113
+        },
+        {
+          "name": "RunClearCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 132
+        },
+        {
+          "name": "RunInvalidCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 152
+        },
+        {
+          "name": "RunEmptyInput",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 170
+        },
+        {
+          "name": "RunOverwriteExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 189
+        },
+        {
+          "name": "RunMultipleCommands",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 209
+        },
+        {
+          "name": "RunLargeNumberOfCommands",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_cli.cpp",
+          "line": 240
+        }
+      ]
+    },
+    {
+      "name": "CommandParserParseTest",
+      "tests": 14,
+      "testsuite": [
+        {
+          "name": "ParseSetCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 10
+        },
+        {
+          "name": "ParseGetCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 19
+        },
+        {
+          "name": "ParseDeleteCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 27
+        },
+        {
+          "name": "ParseExistsCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 35
+        },
+        {
+          "name": "ParseLowerCaseCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 43
+        },
+        {
+          "name": "ParseCommandWithMultipleWordValue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 52
+        },
+        {
+          "name": "ParseSizeCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 61
+        },
+        {
+          "name": "ParseClearCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 70
+        },
+        {
+          "name": "ParseExitCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 79
+        },
+        {
+          "name": "ParseInvalidCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 86
+        },
+        {
+          "name": "ParseEmptyInput",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 93
+        },
+        {
+          "name": "ParseCommandWithExtraSpaces",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 100
+        },
+        {
+          "name": "ParseSetWithoutValue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 109
+        },
+        {
+          "name": "ParseGetWithoutKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_commandparser.cpp",
+          "line": 118
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteDeleteTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "DeleteExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_delete.cpp",
+          "line": 17
+        },
+        {
+          "name": "DeleteFirstKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_delete.cpp",
+          "line": 26
+        },
+        {
+          "name": "DeleteLastKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_delete.cpp",
+          "line": 36
+        },
+        {
+          "name": "DeleteNonExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_delete.cpp",
+          "line": 46
+        },
+        {
+          "name": "DeleteKeyTwice",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_delete.cpp",
+          "line": 53
+        },
+        {
+          "name": "DeleteAllKeys",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_delete.cpp",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteDeleteStandalone",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DeleteFromEmptyDatabase",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_delete.cpp",
+          "line": 71
+        },
+        {
+          "name": "DeleteOneAmongManyKeys",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_delete.cpp",
+          "line": 80
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteExecuteTest",
+      "tests": 13,
+      "testsuite": [
+        {
+          "name": "ExecuteSetCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 12
+        },
+        {
+          "name": "ExecuteGetExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 25
+        },
+        {
+          "name": "ExecuteGetNonExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 35
+        },
+        {
+          "name": "ExecuteDeleteExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 43
+        },
+        {
+          "name": "ExecuteDeleteNonExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 54
+        },
+        {
+          "name": "ExecuteExistsForExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 62
+        },
+        {
+          "name": "ExecuteExistsForMissingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 72
+        },
+        {
+          "name": "ExecuteSizeCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 80
+        },
+        {
+          "name": "ExecuteClearCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 90
+        },
+        {
+          "name": "ExecuteExitCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 103
+        },
+        {
+          "name": "ExecuteInvalidCommand",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 110
+        },
+        {
+          "name": "ExecuteMultipleCommandsSequentially",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 117
+        },
+        {
+          "name": "ExecuteOverwriteValue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_execute.cpp",
+          "line": 144
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteExistsTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "ExistingKeyReturnsTrue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_exisits.cpp",
+          "line": 17
+        },
+        {
+          "name": "AnotherExistingKeyReturnsTrue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_exisits.cpp",
+          "line": 22
+        },
+        {
+          "name": "NonExistingKeyReturnsFalse",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_exisits.cpp",
+          "line": 27
+        },
+        {
+          "name": "ExistsAfterDeletion",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_exisits.cpp",
+          "line": 32
+        },
+        {
+          "name": "ExistsAfterUpdatingValue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_exisits.cpp",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteExistsStandalone",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ExistsInEmptyDatabase",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_exisits.cpp",
+          "line": 50
+        },
+        {
+          "name": "ExistsAfterClear",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_exisits.cpp",
+          "line": 57
+        },
+        {
+          "name": "ExistsWithLargeDataset",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_exisits.cpp",
+          "line": 71
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteGetTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "GetExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_get.cpp",
+          "line": 17
+        },
+        {
+          "name": "GetAnotherExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_get.cpp",
+          "line": 25
+        },
+        {
+          "name": "GetNonExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_get.cpp",
+          "line": 33
+        },
+        {
+          "name": "GetAfterUpdatingValue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_get.cpp",
+          "line": 41
+        },
+        {
+          "name": "GetEmptyValue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_get.cpp",
+          "line": 51
+        },
+        {
+          "name": "GetLongStringValue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_get.cpp",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteGetStandalone",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "GetFromEmptyDatabase",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_get.cpp",
+          "line": 73
+        },
+        {
+          "name": "GetAfterClear",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_get.cpp",
+          "line": 83
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteSetTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "InsertNewKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_set.cpp",
+          "line": 16
+        },
+        {
+          "name": "UpdateExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_set.cpp",
+          "line": 27
+        },
+        {
+          "name": "InsertEmptyValue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_set.cpp",
+          "line": 38
+        },
+        {
+          "name": "InsertEmptyKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_set.cpp",
+          "line": 49
+        },
+        {
+          "name": "InsertLongStringValue",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_set.cpp",
+          "line": 60
+        },
+        {
+          "name": "MultipleInsertions",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_set.cpp",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteSetStandalone",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "InsertIntoEmptyDatabase",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_set.cpp",
+          "line": 91
+        },
+        {
+          "name": "OverwriteKeyMultipleTimes",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_set.cpp",
+          "line": 105
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteSizeTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "InitialSize",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_size.cpp",
+          "line": 17
+        },
+        {
+          "name": "SizeAfterInsertion",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_size.cpp",
+          "line": 22
+        },
+        {
+          "name": "SizeAfterUpdatingExistingKey",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_size.cpp",
+          "line": 29
+        },
+        {
+          "name": "SizeAfterDeletion",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_size.cpp",
+          "line": 36
+        },
+        {
+          "name": "SizeAfterClear",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_size.cpp",
+          "line": 43
+        }
+      ]
+    },
+    {
+      "name": "RedisLiteSizeStandalone",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "EmptyDatabaseSize",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_size.cpp",
+          "line": 51
+        },
+        {
+          "name": "LargeDatabaseSize",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_size.cpp",
+          "line": 58
+        },
+        {
+          "name": "SizeAfterMixedOperations",
+          "file": "D:\\GITN\\PROJECT-01-SUPERCODERS\\tests\\RedisLite\\test_size.cpp",
+          "line": 71
+        }
+      ]
+    }
+  ]
+}

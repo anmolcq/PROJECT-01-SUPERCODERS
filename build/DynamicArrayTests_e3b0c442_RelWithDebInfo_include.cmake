@@ -1,0 +1,5 @@
+if(EXISTS "D:/GITN/PROJECT-01-SUPERCODERS/build/DynamicArrayTests_e3b0c442_RelWithDebInfo_tests.cmake")
+  include("D:/GITN/PROJECT-01-SUPERCODERS/build/DynamicArrayTests_e3b0c442_RelWithDebInfo_tests.cmake")
+else()
+  add_test(DynamicArrayTests_NOT_BUILT DynamicArrayTests_NOT_BUILT)
+endif()

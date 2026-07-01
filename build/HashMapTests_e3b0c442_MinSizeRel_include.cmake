@@ -1,0 +1,5 @@
+if(EXISTS "D:/GITN/PROJECT-01-SUPERCODERS/build/HashMapTests_e3b0c442_MinSizeRel_tests.cmake")
+  include("D:/GITN/PROJECT-01-SUPERCODERS/build/HashMapTests_e3b0c442_MinSizeRel_tests.cmake")
+else()
+  add_test(HashMapTests_NOT_BUILT HashMapTests_NOT_BUILT)
+endif()

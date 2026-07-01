@@ -1,0 +1,12 @@
+D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_clear.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\test_clear.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_cli.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\test_cli.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_commandparser.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\test_commandparser.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_delete.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\test_delete.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_execute.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\test_execute.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_exisits.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\test_exisits.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_get.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\test_get.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_set.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\test_set.obj
+D:\GITN\PROJECT-01-SUPERCODERS\tests\RedisLite\test_size.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\test_size.obj
+D:\GITN\PROJECT-01-SUPERCODERS\src\CLI.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\CLI.obj
+D:\GITN\PROJECT-01-SUPERCODERS\src\CommandParser.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\CommandParser.obj
+D:\GITN\PROJECT-01-SUPERCODERS\src\RedisLite.cpp;D:\GITN\PROJECT-01-SUPERCODERS\build\RedisLiteTests.dir\Release\RedisLite.obj
